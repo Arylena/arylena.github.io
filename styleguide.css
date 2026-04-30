@@ -1375,8 +1375,8 @@ body.page-coffeebird {
 }
 
 body.page-coffeebird {
-	font-family:'DM Sans',sans-serif;
-	font-weight:400;
+	font-family:"Nunito",sans-serif;
+	font-weight:600;
 	font-optical-sizing:auto;
 	background:var(--cream);
 	color:var(--text);
@@ -2774,4 +2774,19 @@ body.page-coffeebird .hero-left>*:nth-child(5) {
 
 body.page-coffeebird .hero-right {
 	animation:coffeebird-fade-up .6s ease .25s both
+}
+
+/* Coffee Bird: enforce .sunflower-title / .nunito-body over case-study rules (same values as styleguide utilities) */
+body.page-coffeebird .sunflower-title {
+	font-family: "Sunflower", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+body.page-coffeebird .nunito-body {
+	font-family: "Nunito", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
 }
